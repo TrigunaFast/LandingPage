@@ -42,6 +42,11 @@ h1{
     font-style: italic;
 }
 
+.linha-horizontal{
+    width: clamp(50vw,80vw,120vw);  
+    border: 1px solid #FFFFFF;
+}
+
 #informacoes{ /*aqui a gente chama uma ID que ta no Button*/
     width: 150px;
     height: 40px;
