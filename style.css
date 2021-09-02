@@ -29,16 +29,16 @@ main{
 
 h1{
     color: #FFFFFF;
-    font-size: clamp(40px, 10vw, 120px);
+    font-size: clamp(30px, 10vw, 120px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .Apresentacao{  /*aqui a gente chama uma classe que ta feita no <p>*/
     color: #FFFFFF;
-    font-size: clamp(30px, 5vw, 50px);/* 50px;*/
+    font-size: clamp(20px, 5vw, 50px);/* 50px;*/
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     font-style: italic;
 }
 
