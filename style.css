@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+    margin: 0; /*define a margem de fora do bloco*/
+    padding: 0; /*define a margem de dentro do bloco*/
+    box-sizing: border-box; /* arrua automaticamente os blocos na tela*/
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     background-position:center;
     background-color: #0000007E;
     background-blend-mode: darken;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -26,11 +26,30 @@ main{
     flex-direction: column;
     gap: 20px; 
 }
+
 h1{
     color: #FFFFFF;
-    font-size: 100px;
+    font-size: clamp(40px, 10vw, 120px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
-p{
+
+.Apresentacao{  /*aqui a gente chama uma classe que ta feita no <p>*/
     color: #FFFFFF;
+    font-size: clamp(30px, 5vw, 50px);/* 50px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#informacoes{ /*aqui a gente chama uma ID que ta no Button*/
+    width: 150px;
+    height: 40px;
+    background-color: #FAE12C;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
 }
 
